@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #000000;
+  color: #e5e7eb;
+}
+
+.app {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+pre {
+  margin-top: 16px;
+  padding: 12px;
+  background: #020617;
+  border-radius: 6px;
+}
